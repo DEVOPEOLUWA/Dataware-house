@@ -13,6 +13,7 @@
 }
 html{
  font-size: 53.5%;
+ scroll-behavior: smooth;
  z-index: 1000;
  }
  body{
@@ -416,211 +417,13 @@ color: #212353;
   color: #4B5D68;
       }
    
-    /* .testimonial .glider-contain .glider .box{
-      margin: 2rem;
-      height: 50rem;
-    flex-direction: column;
-      padding: 2rem 7%;
-  border-radius: 12px;
-      display: flex;
-      flex: 1 1 15rem;
-      background: #F6FAFD;
-      box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-      border: .2rem solid #6a01fd ;
-    }
-    
-    
    
-    .testimonial .box img{
-      top: 3rem;
-      height: 60%;
-      right: 4rem;
-      width: 50%;
-      position: relative;
-    }
-   
-    .testimonial .box .content
-    {
-      bottom: 5rem;
-      line-height: 160%;
-      left: 6rem;
-      position: relative;
-      padding: 1rem;
-    }
-   
-    .testimonial .box .content h3{
-      font-family:Avenir ;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 130%;
-  
-  align-items: center;
-  letter-spacing: 0.005em;
-  
-  
-  
-  color: #212353;
-    }
-   
-    .testimonial .box .content h6
-    {
-      font-family:Avenir ;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 1rem;
-      line-height: 160%;
-  
-      align-items: center;
-      letter-spacing: 0.01em;
-    
-      
-      color: #9C69E2;
-    }
-   
-    .testimonial .glider-contain .glider .box .content p{
-      font-family:Avenir ;
-      position: relative;
-      top: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 150%;
-  color: #4B5D68;
-    } */
     .testimonial .dots{
       position: relative;
       top: 12rem;
       right: 29rem;
     }
-    /* .sect-2{
-      justify-content: center;
-      width: 105rem;
-    height: 350px;
-    left: 5rem;
-      position: relative;
-      padding: 2rem 19%; 
-     background:  #9C69E2;
-       top: 49rem;
-       margin-bottom:3rem ;
-      flex-wrap: wrap;
-      min-height: 100vh;
-      align-items: center;
-      border-radius:50px;
-    }
-    .sect-2 .heading{
-      font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 700;
-  font-size:2rem;
-  line-height: 130%;
-  position: relative;
-  top: 9rem;
-  left: 13rem;
   
-  
-  color: #FFFFFF;
-    }
-    .sect-2 .box-container{
-      position: relative;
-      left: 25rem;
-      top: 16rem;
-    align-items:center ;
-    display:flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    }
-    .sect-2 .box-container .card{
-      height: 26rem;
-      padding: 2rem 5%;
-  border-radius: 12px;
-      display: flex;
-      flex: 1 1 15rem;
-      background: #F6FAFD;
-      box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
-      border: .2rem solid #6a01fd ;
-    }
-    .sect-2 .box-container .card img{
-      height: 50%;
-      width: 50%;
-      position: relative;
-      top: 3rem;
-    }
-    .sect-2 .box-container .card .content 
-    {
-      position: relative;
-      top: 2rem;
-      left: 2rem;
-      padding: 1rem;
-    }
-    .sect-2 .box-container .card .content h3{
-      font-family:Avenir ;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 120%;
-  
-  align-items: center;
-  letter-spacing: 0.005em;
-  
-  
-  
-  color: #212353;
-    }
-    .sect-2 .box-container .card .content h6{
-      font-family:Avenir ;
-      font-style: normal;
-      font-weight: 500;
-      font-size: .8rem;
-      line-height: 130%;
-  
-      align-items: center;
-      letter-spacing: 0.01em;
-    
-      
-      color: #9C69E2;
-    }
-    .sect-2 .box-container .card .content p{
-      font-family:Avenir ;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 10px;
-  line-height: 110%;
-  color: #4B5D68;
-    }
-    .sect-2 .Slider{
-      position: relative;
-      display: flex;
-     left: 7.5rem;
-      top: 23rem;
-      justify-content: flex-start;
-    }
-    .sect-2 .Slider img{
-     width: 3rem;
-      padding: 1rem;
-    }
-    .sect-2 .arrow{
-      display: flex;
-      position: relative;
-      justify-content: flex-end;
-      top:18rem;
-      right:6rem
-  
-    }
-    .sect-2 .arrow i{
-      font-size: 2rem;
-      padding: 1rem;
-    }
-    .sect-2 .arrow #one{
-      color: #FFFFFF;
-      border: 2px solid #FFFFFF
-      
-    }
-    .sect-2 .arrow #two{
-      font-weight: 400;
-      
-      color: rgba(255, 255, 255, 0.473);
-    } */
     .footer{
       padding: 3rem 10%;
       border-top: .9px solid #9C69E2;
@@ -713,6 +516,9 @@ color: #212353;
   font-family:Avenir  ;
   display: flex;
    justify-content: space-between; 
+}
+.footer .nav a{
+  color: #212353;
 }
 .footer .IMG{
   position: relative;
@@ -867,7 +673,7 @@ margin: 1rem;
      background: #9C69E2;
       border-top: .1rem solid rgba(0, 0, 0, 0.1) ;
       clip-path: polygon(0 0,100% 0,100% 0, 100% 0,0 0);
-      transition: .5s ease;
+      transition: .5s all ease;
   
   
   }
@@ -1127,13 +933,8 @@ padding: .9rem;
     height: 70%;
     width: 70%;
   }
-  .sect-2{
-    height: 120px;
-  }
 
-.testimonial{
-  width: 70rem;
-}
+
 .testimonial .glider-contain .glider{
   height: 50rem;
 }
@@ -1150,6 +951,7 @@ padding: .9rem;
   font-size: 1rem;
   line-height: 2rem;
 }
+
 .footer .buttons{
   top: .4rem;
 }
@@ -1230,4 +1032,4 @@ font-weight: 300;
 font-size: 15px;
 line-height: 130%;
 color: #4B5D68;
-  } */
+  } 
