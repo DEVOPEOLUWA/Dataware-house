@@ -1,3 +1,5 @@
+// dispalying the section by clicking the demo button
+
 let btn = document.querySelector('.btn');
 let row = document.querySelector('.section')
 btn.onclick = () =>{
@@ -47,19 +49,6 @@ el.parentElement.parentElement.remove()
 }
 }
 
-// static showAlert(message){
-// const div = document.createElement('div');
-// div.className = `
-// alert
-// `
-// div.appendChild(document.createTextNode(message))
-// const container = document.querySelector('#row');
-// const form  =  document.querySelector('#form');
-// container.insertBefore(div,form);
-// }
-
-
-
 
 
 }
@@ -106,6 +95,7 @@ const setError = (element,message) =>{
 const input = element.parentElement;
 const errorDisplay = input.querySelector('.error')
 errorDisplay.innerText = message;
+// styling the validation content
 errorDisplay.style.color = '#970000';
 errorDisplay.style.fontSize = '16px'
 input.classList.add('error');
@@ -174,6 +164,5 @@ if(!idNumber || !itemName || !itemPrice){
 document.querySelector('#showUser').addEventListener('click',(e) =>{
 ui.deleteData(e.target);
  Store.removeData(e.target.parentElement.previousElementSibling.textContent);
-
  
 })
