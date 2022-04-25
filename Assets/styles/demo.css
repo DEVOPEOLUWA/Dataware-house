@@ -12,6 +12,7 @@ text-decoration: none;
 }
 html{
 font-size: 53.5%;
+scroll-behavior: smooth;
 z-index: 1000;
 }
 body{
@@ -188,21 +189,23 @@ border: 2px solid #e77dce;
 padding: 1.3rem;
 border-radius: 1.2rem;
 color: #3f0048;
-font-weight: 400;
+font-weight: 800;
 }
 .section .row .table td{
   text-align: center;
 border:2px solid #f493f4;
 background: #fcc6ed;
-padding: 2rem;
-font-size: 2rem;
+padding: 1rem;
+
+font-size: 2.5rem;
 border-radius: 3.4rem;
 border-spacing: .7rem;
 color: #760085;
 
 } 
-.section .row .table td:hover{
- background: #fcfaf0;
+.section .row .table td .delete{
+  font-weight: 700;
+  color: #212353;
 }
 .section .row form{
  border-radius: .9rem;
@@ -277,17 +280,19 @@ padding: 2rem;
 } */
 
 form .btn-1{
-   font-size: 1.7rem;
+   font-size: 2.1rem;
    display: inline-block;
    border: .2rem solid #e77dce;
    padding: .8rem 3rem;
    cursor: pointer;
-   color: #bea31f;
+   color: #f1f0e7;
    border-radius: .7rem;
    position: relative;
    overflow: hidden;
    z-index: 0;
    margin-top: 1rem;
+  background: #e77dce;
+  font-weight: 700;
   
 
 }
@@ -313,7 +318,7 @@ left: 0;
  padding: 3rem 10%;
  border-top: .9px solid #9C69E2;
  position: relative;
- top:8rem;
+ top:14rem;
 }
 .footer h2{
  font-family: 'Helvetica';
@@ -401,6 +406,9 @@ font-size: 1.3rem;
 font-family:Avenir  ;
 display: flex;
 justify-content: space-between; 
+}
+.footer .nav a{
+  color: #212353;
 }
 .footer .IMG{
 position: relative;
@@ -632,21 +640,27 @@ line-height: 19px;
     body{
       padding: 1rem;
     }
+    .about{
+      top: 0;
+    }
     
     .about .image img{
      display: none;
     } 
     .about .content h3{
-    width:250px;
+    width:300px;
     
     }
     .about .content p{
     bottom: 3rem;
-    width: 250px;
+    width: 300px;
     }
      .about .content .btn{
     top: 13rem;
     } 
+    .section{
+      top: -10rem;
+    }
   }
  
  
